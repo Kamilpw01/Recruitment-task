@@ -1,0 +1,91 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
+   font-family: "Ubuntu";
+
+}
+
+.blog-archive-search {
+   font-family: Arial, sans-serif;
+   margin: 0px;
+}
+
+h1 {
+   text-align: center;
+   color: #fafac6
+      /*#fefae0*/
+   ;
+   font-size: 42px;
+   font-weight: 600;
+   letter-spacing: 4px;
+
+}
+
+#header {
+   padding: 100px;
+
+}
+
+#content {
+   padding: 50px;
+
+}
+
+.filter-container {
+   display: flex;
+   justify-content: flex-end;
+   margin-bottom: 10px;
+}
+
+.filter-container label {
+   font-size: 16px;
+   padding: 4px;
+}
+
+#orderFilter {
+   border: 1px solid #ccc;
+   font-size: 14px;
+}
+
+input {
+   width: 100%;
+   padding: 10px;
+   font-size: 16px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+   border: 1px solid #ccc;
+
+
+}
+
+ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+li {
+   margin-bottom: 20px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid #ccc;
+}
+
+li:last-child {
+   border-bottom: none;
+}
+
+a {
+   text-decoration: none;
+   color: #dda15e;
+   font-weight: bold;
+}
+
+p {
+   margin: 0;
+   margin-top: 10px;
+   color: #777;
+}
